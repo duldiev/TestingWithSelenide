@@ -1,0 +1,1303 @@
+<html class=" flexbox"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="/static/koffer/images/fb.png">
+    
+    <link rel="canonical" href="/">
+    <meta name="description" content="Aviata.kz ­ сервис по продаже авиабилетов в Алматы, Казахстане и за его пределами. Поиск и онлайн бронирование наиболее дешевых авиабилетов 24/7. Дешевые электронные билеты в любую точку мира">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <meta property="al:ios:url" content="aviata://">
+<meta property="al:ios:app_store_id" content="900451300">
+<meta property="al:ios:app_name" content="Aviata.kz дешевые авиабилеты">
+<meta property="al:android:url" content="aviata://">
+<meta property="al:android:package" content="kz.glatis.aviata">
+<meta property="al:android:app_name" content="Aviata.kz — авиабилеты дешево">
+    
+<link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/static/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16x16.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/static/images/favicon/favicon.ico">
+<link rel="manifest" href="/static/images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-5QSZBSD&amp;cid=1191768161.1662845995"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-H4H9QMEDDC&amp;l=dataLayer&amp;cx=c"></script><script id="scarab-js-api" src="//cdn.scarabresearch.com/js/1E579E9D13D68BAE/scarab-v2.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=G-H4H9QMEDDC&amp;l=dataLayer&amp;cx=c"></script><script src="https://connect.facebook.net/signals/config/1862079357408316?v=2.9.79&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.79" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-P8NW4P"></script><script async="" type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript">
+var v_flight_details = 'Детали перелета'
+var v_recommended = 'Авиата рекомендует'
+var v_fastest = 'Самый быстрый'
+var v_cheapest_fastest = 'Самый быстрый и дешевый'
+var v_cheapest = 'Самый дешевый'
+var v_full_cost_info = 'Указана стоимость авиабилетов за всех пассажиров, включая все сборы и комиссии'
+var v_tenge = 'KZT'
+
+    var v_via_start = '<span>через '
+    var v_via_end = ',</span> '
+
+var v_direct_flight = 'прямой рейс'
+var v_stopover = 'стык.'
+var v_stopovers = 'пересадки'
+var v_another_time = 'Другое время'
+var v_choose = 'Выбрать'
+var v_no_return = 'невозвратный'
+var v_no_return_lowcost = 'Лоукостер. Возвратов/обменов нет.';
+var v_days = 'д'
+var v_hours = 'ч'
+var v_mins = 'м'
+var v_close = 'Закрыть'
+var v_arrival = 'Прилет'
+var v_departure = 'Вылет'
+var v_plane = 'Самолёт'
+var v_flight_number = 'Рейс'
+var v_cabin_class = 'Класс перелёта'
+var v_carrier = 'Перевозчик'
+var v_rule_text = 'Условия тарифа'
+var v_full_price_for_all = 'Цена за всех пассажиров'
+var v_special_full_price_for_all = 'Спеццена за всех пассажиров'
+var v_show_fare_rules = 'Условия тарифа'
+var v_travel_time = 'Общее время в пути'
+var v_back_to_result = 'назад к результатам'
+var v_variants_price = 'Варианты рейсов за '
+var v_vilet = 'вылет'
+var v_prilet = 'прилет'
+var v_peresadki = 'пересадки'
+var v_polet = 'полёт'
+var v_subscribe_success = 'Спасибо за подписку, проверьте свою почту.';
+var v_error_occured = 'Произошла ошибка. Попробуйте позже.';
+var v_incorrect_fields = 'Не все поля заполнены верно';
+var v_selected_date_in_the_past = 'Selected date in the past';
+var avia_price_url = '/avia/price/'
+var avia_fare_rules_url = '/ajax/fare/__aid__/__fare_id__'
+var v_direct_flight_with_stops = 'прямой рейс с остановкой'
+var v_youth_fare = 'Молодежный тариф'
+var v_combo_flight = 'Комбинированный перелет'
+</script>
+
+    
+
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/12329540/new_aviata_main_slider1', [950, 150], 'div-gpt-ad-1454059236938-0').addService(googletag.pubads());
+    googletag.defineSlot('/12329540/new_aviata_main_slider2', [950, 150], 'div-gpt-ad-1454059236938-1').addService(googletag.pubads());
+    googletag.defineSlot('/12329540/new_aviata_main_slider3', [950, 150], 'div-gpt-ad-1454059236938-2').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+
+<script>
+    var current_backend_date = '11.09.22';
+
+    window.__appContext__ = Object.freeze({
+        urls: {
+          anywhere: "/world-destinations/"
+        },
+        pfm: {
+            apiURL: 'https://api.platform.aviataproject.com',
+            pollingIntervals: JSON.parse('{"international": {"OW": [1, 1, 1, 1, 2], "RT": [1, 1, 1, 1, 2]}, "domestic": {"OW": [1], "RT": [1]}}'),
+            consumer: {
+                name: "aviata-kz.web.desktop",
+                key: "02de4725e5a54c2b92cb3156bfa41457"
+            }
+        },
+        features: {},
+        experiments: {}
+    });
+</script>
+
+
+    
+        
+            
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P8NW4P"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P8NW4P');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GTM-P8NW4P');
+    gtag('config', 'GTM-P8NW4P', { 'optimize_id': 'GTM-5QSZBSD' });
+    (function () {
+      try {
+        var id = JSON.parse(atob(
+          JSON.parse(localStorage.getItem('aviata:user-token')).split('.')[1]
+        )).user.id;
+        if (id) {
+          window.dataLayer.push({ 'user_id': id });
+        }
+      } catch (err) {}
+    })();</script>
+    
+        
+    
+
+    
+    <link rel="stylesheet" href="/static/css/vendor/owl.carousel.css">
+    <link rel="stylesheet" href="/static/css/vendor/owl.theme.css">
+    <link rel="stylesheet" href="/static/css/vendor/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/payments.css">
+    
+
+    
+<link rel="stylesheet" type="text/css" href="/static/compiled/css/index.css?2022.09.08T11-35">
+
+    
+      
+
+
+  <link rel="stylesheet" type="text/css" href="/static/aviax-bridge/main-desktop/css/app.css?r=2022.09.08T11-35&amp;v=1">
+
+    
+    <title>Авиабилеты - купить дешевые авиабилеты в Казахстане онлайн на aviata.kz</title>
+    <script>
+      var client = {}
+      var clientConfiguration = {
+        url: 'https://api.platform.aviataproject.com',
+        siteURL: 'https://aviata.kz',
+        lang: 'ru',
+        consumer: {
+          mobile: {
+            name: 'aviata-kz.web.mobile',
+            key: '4ef9423451c0412ca48352a97c24b001',
+          },
+          desktop: {
+            name: 'aviata-kz.web.desktop',
+            key: '02de4725e5a54c2b92cb3156bfa41457',
+          }
+        },
+        user: {
+          tokenTTL: 7776000,
+          refreshGap: 120
+        },
+        modules: ['accounts'],
+        sentryDSN: 'https://2343d59e767344d4a2c6389423fd2887@sentry.aviata.team/33'
+      };
+    </script>
+<meta http-equiv="origin-trial" content="A+cA2PUOfIOKAdSDJOW5CP9ZlxONy1yu+hqAq72zUtKw4rLdihqRp6Nui/jUyCyegr+BUtH+C+Elv0ufn05yBQEAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+zsdH3aNZT/bkjT8U/o5ACzyaeNYzTvtoVmwf/KOilfv39pxY2AIsOwhQJv+YnXp98i3TqrQibIVtMWs5UHjgoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxceVEhIegcDEHqLXFQ2+vPKqzCppoJYsRCZ/BdfVnbM/sUUF2BXV8lwNosyYjvoxnTh2FC8cOlAnA5uULr/zAUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2022090701.js?cb=31069465" async=""></script><meta http-equiv="origin-trial" content="A7bG5hJ4XpMV5a3V1wwAR0PalkFSxLOZeL9D/YBYdupYUIgUgGhfVJ1zBFOqGybb7gRhswfJ+AmO7S2rNK2IOwkAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><link rel="preload" href="https://adservice.google.kz/adsid/integrator.js?domain=aviata.kz" as="script"><script type="text/javascript" src="https://adservice.google.kz/adsid/integrator.js?domain=aviata.kz"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=aviata.kz" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=aviata.kz"></script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/958864753/?random=1662845995659&amp;cv=9&amp;fst=1662845995659&amp;num=1&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=800&amp;u_aw=1440&amp;u_cd=30&amp;u_his=2&amp;u_tz=360&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2wg970&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Faviata.kz%2F&amp;tiba=%D0%90%D0%B2%D0%B8%D0%B0%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D1%8B%20-%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D1%8B%D0%B5%20%D0%B0%D0%B2%D0%B8%D0%B0%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D1%8B%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85&amp;auid=120891889.1662845994&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4"></script><meta http-equiv="origin-trial" content="Azy2GzGQxPvGmQwVDdEL1jRuKSXIdSSASA06JCA6PCeaVHpFYf8Rw5/q+9adc9CrBTxfCeUwxkuDM4PWEmdqywwAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZWFkc2VydmljZXMuY29tOjQ0MyIsImZlYXR1cmUiOiJQcml2YWN5U2FuZGJveEFkc0FQSXMiLCJleHBpcnkiOjE2NjEyOTkxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion/825052459/?random=1662845995714&amp;cv=9&amp;fst=1662845995714&amp;num=1&amp;value=0&amp;label=t8mECNT-nnoQq5q1iQM&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=800&amp;u_aw=1440&amp;u_cd=30&amp;u_his=2&amp;u_tz=360&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;gtm=2wg970&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Faviata.kz%2F&amp;tiba=%D0%90%D0%B2%D0%B8%D0%B0%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D1%8B%20-%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D1%8B%D0%B5%20%D0%B0%D0%B2%D0%B8%D0%B0%D0%B1%D0%B8%D0%BB%D0%B5%D1%82%D1%8B%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85&amp;auid=120891889.1662845994&amp;hn=www.googleadservices.com&amp;bttype=purchase&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+<body>
+<script src="/static/js/storage.js" type="text/javascript"></script>
+
+
+<div class="flex flex-col h-full">
+  
+  
+  <div class="flex-1">
+    
+    <div id="page-loading"></div>
+
+    
+
+    
+    <div class="bg-black">
+        
+            <div class="app-top-panel px-10 py-0 bg-black"><div class="
+      app-top-panel__desktop items-center justify-between
+      py-2 mx-auto font-open-sans
+    "><nav class="flex space-x-5 xl:space-x-10"><a href="/" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-green-600" style="text-decoration: none;"> Авиабилеты </a><a href="https://aviata.kz/railways/" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-white" style="text-decoration: none;"> Билеты на поезд </a><a href="http://hotels.aviata.kz/" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-white" style="text-decoration: none;"> Отели </a><a href="https://aviata.kz/tours/" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-white" style="text-decoration: none;"> Туры </a><a href="/b2b_landing/" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-white" style="text-decoration: none;"> Для бизнеса </a><a href="/bonuses/" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-white" style="text-decoration: none;"> Бонусы </a><a href="https://aviata.kz/media/?utm_source=av-aviata&amp;utm_medium=hedar-desktop&amp;utm_campaign=hedar-menu" class="
+          text-xs xl:text-sm font-bold leading-normal
+          hover:text-green-600 focus:text-green-600
+         text-white" style="text-decoration: none;"> Блог </a></nav><nav><a href="https://aviata.kz/cabinet/" target="_blank" data-qa-id="desktop-main-account" class="
+          flex items-center text-xs xl:text-sm
+          font-bold leading-normal text-white
+          group hover:text-green-600 focus:text-green-600
+        " style="text-decoration: none;"><span class="mr-2"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="stroke-current group-hover:text-green-600"><path d="M18.364 5.636a9 9 0 0 1 0 12.728 9 9 0 1 1 0-12.728" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.99 8.324a2.813 2.813 0 1 1-3.98 3.978 2.813 2.813 0 0 1 3.98-3.978M17.707 18.958A7.848 7.848 0 0 0 12 16.5a7.845 7.845 0 0 0-5.707 2.459" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span> Личный кабинет </a></nav></div><div class="md:hidden"><header class="
+    h-10 py-2 px-5
+    flex items-center justify-between
+    bg-green-600
+  "><div class="w-18"><button type="button" class="focus:outline-none space-y-1"><span class="w-4 border border-white block bg-white rounded-xs"></span><span class="w-4 border border-white block bg-white rounded-xs"></span><span class="w-4 border border-white block bg-white rounded-xs"></span></button></div><a href="/" class="prevent-on-payment"><img src="/static/aviax-bridge/main-desktop/img/aviata-white.7347ee05.svg" width="96px" height="20px" alt="Авиабилеты - купить дешевые авиабилеты в Казахстане онлайн на aviata.kz"></a><div class="flex items-center justify-end space-x-2 w-18"><a href="https://aviata.kz/cabinet/" target="_blank" rel="noopener" data-qa-id="mobile-header-account" class="prevent-on-payment ml-auto flex-shrink-0"><img src="/static/aviax-bridge/main-desktop/img/user-profile.65c304fa.svg" width="24px" height="24px" alt="Личный кабинет"></a></div></header></div><!----></div>
+        
+    </div> <!-- div.toppanel -->
+
+    <div style="background-color: #202122">
+        <div class="rounded-top-rect">
+            <!-- Header -->
+            <header class="container3">
+                <!-- Modal -->
+                <div class="modal fade" id="youtube-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="dialog-callback" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Обратный звонок</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Укажите свой контактный телефон, и мы перезвоним вам в ближайшие несколько минут.
+                                </p>
+                                <p>
+                                    Заявки на обратный звонок обрабатываются с 10:00 до 22:00 по времени Астаны. 
+                                </p>
+                                <form name="callback">
+                                    <div class="form-group callback">
+                                        <div>
+                                            <label class="control-label">Код страны</label>
+                                            <select name="phonecode" class="form-control inputfield__grey">
+                                                    <option value="+61">Австралия, +61</option>
+    <option value="+43">Австрия, +43</option>
+    <option value="+994">Азербайджан, +994</option>
+    <option value="+35818">Аландские острова, +35818</option>
+    <option value="+355">Албания, +355</option>
+    <option value="+213">Алжир, +213</option>
+    <option value="+684">Американское Самоа, +684</option>
+    <option value="+1264">Ангилья, +1264</option>
+    <option value="+244">Ангола, +244</option>
+    <option value="+376">Андорра, +376</option>
+    <option value="+1268">Антигуа и Барбуда, +1268</option>
+    <option value="+599">Антильские острова, +599</option>
+    <option value="+54">Аргентина, +54</option>
+    <option value="+374">Армения, +374</option>
+    <option value="+297">Аруба, +297</option>
+    <option value="+93">Афганистан, +93</option>
+    <option value="+1242">Багамы, +1242</option>
+    <option value="+880">Бангладеш, +880</option>
+    <option value="+1246">Барбадос, +1246</option>
+    <option value="+973">Бахрейн, +973</option>
+    <option value="+501">Белиз, +501</option>
+    <option value="+375">Белоруссия, +375</option>
+    <option value="+32">Бельгия, +32</option>
+    <option value="+229">Бенин, +229</option>
+    <option value="+1441">Бермуды, +1441</option>
+    <option value="+359">Болгария, +359</option>
+    <option value="+591">Боливия, +591</option>
+    <option value="+387">Босния и Герцеговина, +387</option>
+    <option value="+267">Ботсвана, +267</option>
+    <option value="+55">Бразилия, +55</option>
+    <option value="+0">Британские Территории в Индийском Океане, +0</option>
+    <option value="+673">Бруней, +673</option>
+    <option value="+226">Буркина-Фасо, +226</option>
+    <option value="+257">Бурунди, +257</option>
+    <option value="+975">Бутан, +975</option>
+    <option value="+678">Вануату, +678</option>
+    <option value="+39">Ватикан, +39</option>
+    <option value="+44">Великобритания, +44</option>
+    <option value="+36">Венгрия, +36</option>
+    <option value="+58">Венесуэла, +58</option>
+    <option value="+1284">Виргинские острова, +1284</option>
+    <option value="+670">Восточный Тимор, +670</option>
+    <option value="+84">Вьетнам, +84</option>
+    <option value="+241">Габон, +241</option>
+    <option value="+509">Гаити, +509</option>
+    <option value="+592">Гайана, +592</option>
+    <option value="+220">Гамбия, +220</option>
+    <option value="+233">Гана, +233</option>
+    <option value="+590">Гваделупа, +590</option>
+    <option value="+502">Гватемала, +502</option>
+    <option value="+594">Гвиана, +594</option>
+    <option value="+224">Гвинея, +224</option>
+    <option value="+245">Гвинея-Биссау, +245</option>
+    <option value="+49">Германия, +49</option>
+    <option value="+1481">Гернси, +1481</option>
+    <option value="+350">Гибралтар, +350</option>
+    <option value="+504">Гондурас, +504</option>
+    <option value="+852">Гонконг, +852</option>
+    <option value="+1473">Гренада, +1473</option>
+    <option value="+299">Гренландия, +299</option>
+    <option value="+30">Греция, +30</option>
+    <option value="+995">Грузия, +995</option>
+    <option value="+671">Гуам, +671</option>
+    <option value="+45">Дания, +45</option>
+    <option value="+253">Джибути, +253</option>
+    <option value="+1767">Доминика, +1767</option>
+    <option value="+1809">Доминиканская Республика, +1809</option>
+    <option value="+20">Египет, +20</option>
+    <option value="+260">Замбия, +260</option>
+    <option value="+212">Зап Сахара, +212</option>
+    <option value="+263">Зимбабве, +263</option>
+    <option value="+972">Израиль, +972</option>
+    <option value="+91">Индия, +91</option>
+    <option value="+62">Индонезия, +62</option>
+    <option value="+962">Иордания, +962</option>
+    <option value="+964">Ирак, +964</option>
+    <option value="+98">Иран, +98</option>
+    <option value="+353">Ирландия, +353</option>
+    <option value="+354">Исландия, +354</option>
+    <option value="+34">Испания, +34</option>
+    <option value="+39">Италия, +39</option>
+    <option value="+967">Йемен, +967</option>
+    <option value="+238">Кабо-Верде, +238</option>
+    <option id="country_kz" value="+7" selected="">Казахстан, +7</option>
+    <option value="+1345">Каймановы острова, +1345</option>
+    <option value="+855">Камбоджа, +855</option>
+    <option value="+237">Камерун, +237</option>
+    <option value="+1">Канада, +1</option>
+    <option value="+974">Катар, +974</option>
+    <option value="+254">Кения, +254</option>
+    <option value="+357">Кипр, +357</option>
+    <option value="+996">Киргизия, +996</option>
+    <option value="+686">Кирибати, +686</option>
+    <option value="+86">Китай, +86</option>
+    <option value="+6722">Кокосовые острова, +6722</option>
+    <option value="+57">Колумбия, +57</option>
+    <option value="+269">Коморские острова, +269</option>
+    <option value="+242">Конго Республика, +242</option>
+    <option value="+242">Конго, Демократическая Республика, +242</option>
+    <option value="+850">Корея (Северная), КНДР, +850</option>
+    <option value="+82">Корея (Южная), +82</option>
+    <option value="+506">Коста-Рика, +506</option>
+    <option value="+225">Кот-д'Ивуар, +225</option>
+    <option value="+53">Куба, +53</option>
+    <option value="+965">Кувейт, +965</option>
+    <option value="+856">Лаос, +856</option>
+    <option value="+371">Латвия, +371</option>
+    <option value="+266">Лесото, +266</option>
+    <option value="+231">Либерия, +231</option>
+    <option value="+961">Ливан, +961</option>
+    <option value="+218">Ливия, +218</option>
+    <option value="+370">Литва, +370</option>
+    <option value="+423">Лихтенштейн, +423</option>
+    <option value="+352">Люксембург, +352</option>
+    <option value="+230">Маврикий, +230</option>
+    <option value="+222">Мавритания, +222</option>
+    <option value="+261">Мадагаскар, +261</option>
+    <option value="+269">Майотт, +269</option>
+    <option value="+853">Макао, +853</option>
+    <option value="+389">Македония, +389</option>
+    <option value="+265">Малави, +265</option>
+    <option value="+60">Малайзия, +60</option>
+    <option value="+223">Мали, +223</option>
+    <option value="+1">Малые острова США, +1</option>
+    <option value="+960">Мальдивы, +960</option>
+    <option value="+356">Мальта, +356</option>
+    <option value="+1670">Марианские острова, +1670</option>
+    <option value="+212">Марокко, +212</option>
+    <option value="+596">Мартиника, +596</option>
+    <option value="+692">Маршалловы острова, +692</option>
+    <option value="+52">Мексика, +52</option>
+    <option value="+691">Микронезия, +691</option>
+    <option value="+258">Мозамбик, +258</option>
+    <option value="+373">Молдавия, +373</option>
+    <option value="+377">Монако, +377</option>
+    <option value="+976">Монголия, +976</option>
+    <option value="+1664">Монтсеррат, +1664</option>
+    <option value="+95">Мьянма, +95</option>
+    <option value="+264">Намибия, +264</option>
+    <option value="+674">Науру, +674</option>
+    <option value="+977">Непал, +977</option>
+    <option value="+227">Нигер, +227</option>
+    <option value="+234">Нигерия, +234</option>
+    <option value="+31">Нидерланды, +31</option>
+    <option value="+505">Никарагуа, +505</option>
+    <option value="+683">Ниуэ, +683</option>
+    <option value="+64">Новая Зеландия, +64</option>
+    <option value="+687">Новая Каледония, +687</option>
+    <option value="+47">Норвегия, +47</option>
+    <option value="+971">Объединенные Арабские Эмираты, +971</option>
+    <option value="+968">Оман, +968</option>
+    <option value="+47">Остров Буве, +47</option>
+    <option value="+44">Остров Мэн, +44</option>
+    <option value="+6723">Остров Норфолк, +6723</option>
+    <option value="+6724">Остров Рождества, +6724</option>
+    <option value="+290">Остров Святой Елены, +290</option>
+    <option value="+44153">Острова Джерси, +44153</option>
+    <option value="+682">Острова Кука, +682</option>
+    <option value="+1649">Острова Теркс и Кайкос, +1649</option>
+    <option value="+681">Острова Уоллис и Футуна, +681</option>
+    <option value="+47">Острова Шпицберген и Ян-Майен, +47</option>
+    <option value="+92">Пакистан, +92</option>
+    <option value="+680">Палау, +680</option>
+    <option value="+972">Палестина, +972</option>
+    <option value="+507">Панама, +507</option>
+    <option value="+675">Папуа-Новая Гвинея, +675</option>
+    <option value="+595">Парагвай, +595</option>
+    <option value="+51">Перу, +51</option>
+    <option value="+64">Питкерн, +64</option>
+    <option value="+689">Полинезия, +689</option>
+    <option value="+48">Польша, +48</option>
+    <option value="+351">Португалия, +351</option>
+    <option value="+262">Реюньон, +262</option>
+    <option value="+7">Россия, +7</option>
+    <option value="+250">Руанда, +250</option>
+    <option value="+40">Румыния, +40</option>
+    <option value="+685">Самоа, +685</option>
+    <option value="+378">Сан-Марино, +378</option>
+    <option value="+239">Сан-Томе и Принсипи, +239</option>
+    <option value="+966">Саудовская Аравия, +966</option>
+    <option value="+268">Свазиленд, +268</option>
+    <option value="+248">Сейшельские острова, +248</option>
+    <option value="+221">Сенегал, +221</option>
+    <option value="+1784">Сент-Винсент и Гренадины, +1784</option>
+    <option value="+1869">Сент-Китс и Невис, +1869</option>
+    <option value="+1758">Сент-Люсия, +1758</option>
+    <option value="+508">Сент-Пьер и Микелон, +508</option>
+    <option value="+381">Сербия, +381</option>
+    <option value="+65">Сингапур, +65</option>
+    <option value="+963">Сирия, +963</option>
+    <option value="+421">Словакия, +421</option>
+    <option value="+386">Словения, +386</option>
+    <option value="+677">Соломоновы острова, +677</option>
+    <option value="+252">Сомали, +252</option>
+    <option value="+249">Судан, +249</option>
+    <option value="+597">Суринам, +597</option>
+    <option value="+1">США, +1</option>
+    <option value="+232">Сьерра-Леоне, +232</option>
+    <option value="+992">Таджикистан, +992</option>
+    <option value="+66">Таиланд, +66</option>
+    <option value="+886">Тайвань, +886</option>
+    <option value="+255">Танзания, +255</option>
+    <option value="+228">Того, +228</option>
+    <option value="+690">Токелау, +690</option>
+    <option value="+676">Тонга, +676</option>
+    <option value="+1868">Тринидад и Тобаго, +1868</option>
+    <option value="+688">Тувалу, +688</option>
+    <option value="+216">Тунис, +216</option>
+    <option value="+993">Туркменистан, +993</option>
+    <option value="+90">Турция, +90</option>
+    <option value="+256">Уганда, +256</option>
+    <option value="+998">Узбекистан, +998</option>
+    <option value="+380">Украина, +380</option>
+    <option value="+598">Уругвай, +598</option>
+    <option value="+298">Фарерские острова, +298</option>
+    <option value="+679">Фиджи, +679</option>
+    <option value="+63">Филиппины, +63</option>
+    <option value="+358">Финляндия, +358</option>
+    <option value="+500">Фолклендские острова, +500</option>
+    <option value="+33">Франция, +33</option>
+    <option value="+0">Французские Южные территории, +0</option>
+    <option value="+385">Хорватия, +385</option>
+    <option value="+236">Центральноафриканская Республика, +236</option>
+    <option value="+235">Чад, +235</option>
+    <option value="+382">Черногория, +382</option>
+    <option value="+420">Чехия, +420</option>
+    <option value="+56">Чили, +56</option>
+    <option value="+41">Швейцария, +41</option>
+    <option value="+46">Швеция, +46</option>
+    <option value="+94">Шри-Ланка, +94</option>
+    <option value="+593">Эквадор, +593</option>
+    <option value="+240">Экваториальная Гвинея, +240</option>
+    <option value="+503">Эль-Сальвадор, +503</option>
+    <option value="+291">Эритрея, +291</option>
+    <option value="+372">Эстония, +372</option>
+    <option value="+251">Эфиопия, +251</option>
+    <option value="+500">Южная Джорджия и Южные Сэндвичевы острова, +500</option>
+    <option value="+27">Южно-Африканская Республика, +27</option>
+    <option value="+1876">Ямайка, +1876</option>
+    <option value="+81">Япония, +81</option>
+
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label class="control-label">Номер телефона</label>
+                                            <input name="phonenum" class="form-control callback__number inputfield__grey" type="text" placeholder="(___) ___-____">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btnCustom btnCustom-default btnRoundCorners" data-dismiss="modal">Закрыть</button>
+                                <button class="btnCustom btnCustom-default btnGreen submit">
+                                    Обратный звонок
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="modal fade" id="dialog-result" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title">Спасибо!</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Ваша заявка отправлена. Ожидайте, наш оператор обязательно свяжется с вами.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- #dialog-result -->
+                <div class="modal fade" id="dialog-error" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <h4 class="modal-title">Ошибка!</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Произошла ошибка. Попробуйте позже.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- end of dialog windows -->
+            </header>
+            
+                <header class="container3">
+                    <!-- size: desktop -->
+                    <div class="header">
+                        <div class="row">
+                            <div class="col-xs-9 col-sm-7 col-md-7 col-lg-6 header__logo">
+                                <figure role="img" aria-label="Aviata logo">
+                                    <a href="/" data-qa-id="main-page-logo-link">
+                                        <img src="/static/images/new/aviata-header-logo.png" class="img-responsive" alt="Авиабилеты в Казахстане - Aviata.kz">
+                                    </a>
+                                </figure>
+                            </div> <!-- div.header-logo -->
+                            <div class="col-sm-9 col-md-8 col-lg-10 header__description">
+                            <h4>Авиата — лидер по продаже билетов в Казахстане</h4>
+                            <small>по данным журнала <a target="_blank" href="https://forbes.kz/ranking/object/934">Forbes Kazakhstan</a>, сентябрь 2020</small>
+                            </div> <!-- div.header-description -->
+                            <div class="col-xs-15 col-sm-8 col-md-9 col-lg-8 header__menu">
+                                <ul class="header__list">
+                                  <li class="header__item"><a class="ux-main-about header__link" href="/cabinet" target="_blank" rel="noopener" data-qa-id="desktop-main-refund">Обмен или возврат</a></li>
+                                </ul>
+                            </div>  <!-- div.header-menu -->
+                        </div>  <!-- div.row -->
+                    </div> <!-- div.header-900 -->
+                </header> <!-- header.container -->
+            
+        </div>
+    </div>
+
+    
+
+<!-- Flight search -->
+<div class="container3">
+    <!-- size: desktop -->
+    <div class="row">
+        <h1 class="mt-2 mb-8 font-open-sans text-3xl text-black-100 font-bold">
+            Купить или забронировать авиабилеты онлайн в Казахстане
+        </h1>
+    </div> <!-- div.flightsearch__headline -->
+    <section><div data-v-127019e6="" class="row search-form relative z-10"><div data-v-127019e6="" class="flex h-16 lg:h-12"><ul data-v-127019e6="" class="flex space-x-3 h-16 lg:h-12"><li><button class="
+      
+      ux-searchform-oneway
+      pt-4 pb-10 px-7 rounded-tl-md 
+      rounded-tr-md border-0 
+      uppercase transition-all duration-150
+      font-open-sans font-bold tracking-normal
+      text-sm
+      outline-none focus:outline-none
+      active:bg-green-600 active:text-white
+     bg-green-600 text-white"> В одну сторону </button></li><li><button class="
+      
+      ux-searchform-roundtrip
+      pt-4 pb-10 px-7 rounded-tl-md 
+      rounded-tr-md border-0 
+      uppercase transition-all duration-150
+      font-open-sans font-bold tracking-normal
+      text-sm
+      outline-none focus:outline-none
+      active:bg-green-600 active:text-white
+     bg-green-50 text-green-600 hover:bg-green-100"> Туда и обратно </button></li><li><button class="
+      
+      ux-searchform-multicity
+      pt-4 pb-10 px-7 rounded-tl-md 
+      rounded-tr-md border-0 
+      uppercase transition-all duration-150
+      font-open-sans font-bold tracking-normal
+      text-sm
+      outline-none focus:outline-none
+      active:bg-green-600 active:text-white
+     bg-green-50 text-green-600 hover:bg-green-100"> Cложный маршрут </button></li><li><button class="
+      flex
+      
+      pt-4 pb-10 px-7 rounded-tl-md 
+      rounded-tr-md border-0 
+      uppercase transition-all duration-150
+      font-open-sans font-bold tracking-normal
+      text-sm
+      outline-none focus:outline-none
+      active:bg-green-600 active:text-white
+     bg-green-50 text-green-600 hover:bg-green-100"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="-mt-0.5 mr-2"><path d="M12 3c4.982 0 9 4.018 9 9s-4.018 9-9 9M12 21c-4.982 0-9-4.018-9-9s4.018-9 9-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path clip-rule="evenodd" d="M10.168 4.06c-2.89 4.825-2.89 11.056 0 15.881a2.114 2.114 0 0 0 3.665 0c2.89-4.825 2.89-11.056 0-15.881a2.114 2.114 0 0 0-3.665 0Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 12h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> Куда угодно </button></li></ul><ul class="flex items-center space-x-3 ml-auto"><li><img src="/static/aviax-bridge/main-desktop/img/mastercard.png" alt="Mastercard" width="30" height="18"></li><li><img src="/static/aviax-bridge/main-desktop/img/visa.png" alt="Visa" width="47" height="15"></li><li><img src="/static/aviax-bridge/main-desktop/img/unionpay.png" alt="Union Pay" width="30" height="18" style="margin: 0px 4px;"></li><li class="p-0"><img src="/static/aviax-bridge/main-desktop/img/choco.29db50f5.svg" alt="Choco" width="24" height="24"></li></ul></div><form data-v-127019e6=""><div data-v-127019e6="" class="relative z-10 flex lg:border-3 lg:border-green-600 lg:rounded-md lg:bg-gray-300 flex-col lg:flex-row space-y-2 lg:space-y-0"><div data-v-3c98a384="" data-v-127019e6="" class="
+      bg-gray-300
+      flex flex-auto relative
+      border-3 border-green-600 rounded-md
+     search-form__row lg:border-none lg:rounded-none lg:bg-transparent" id="search-route-0"><div data-v-3c98a384="" class="relative flex w-1/3" data-qa-id="desktop-main-city-from"><label class="font-normal relative flex items-center w-full h-full ux-searchform-city-from"><input type="text" placeholder="Откуда" autocomplete="off" spellcheck="false" class="
+      absolute w-full h-full py-4
+      text-lg leading-8 truncate font-open-sans
+      focus:outline-none 
+      focus:z-30 focus:shadow-search-control
+     placeholder-gray-600 text-black pl-3 pr-16 rounded-l-sm"><span class="
+      z-30 absolute right-0
+      text-gray-500 text-lg 
+      leading-8 font-open-sans
+     mr-7">  </span></label><!----></div><div data-v-3c98a384="" class="relative flex items-center"><button data-v-3c98a384="" type="button" data-qa-id="desktop-main-city-swap" class="
+          -ml-4
+          text-purple-300
+          focus:outline-none 
+          active:text-purple-500
+          absolute border border-gray-300 
+          border-solid rounded-full bg-white
+         z-10"><svg data-v-3c98a384="" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-4 -5 30 30" role="presentation" style="transform: rotate(90deg);"><title>Поменять местами города</title><g fill="currentColor"><path data-v-3c98a384="" fill-rule="evenodd" clip-rule="evenodd" d="M9.051 7.437a1 1 0 001.414-1.415L6.44 1.997l-.707-.707-.707.707L1 
+            6.022a1 1 0 101.414 1.415l2.319-2.319v11.273a1 1 0 102 0V5.118L9.05 7.437zm3.025 3.416a1 
+            1 0 00-1.415 1.414l4.026 4.026.707.707.707-.707 4.026-4.026a1 1 0 00-1.414-1.414l-2.319 
+            2.319V1.899a1 1 0 10-2 0v11.273l-2.318-2.319z"></path></g></svg></button></div><div data-v-3c98a384="" class="relative flex justify-center ml-px w-1/3" data-qa-id="desktop-main-city-to"><label class="font-normal relative flex items-center w-full h-full ux-searchform-city-to"><input type="text" placeholder="Куда" autocomplete="off" spellcheck="false" class="
+      absolute w-full h-full py-4
+      text-lg leading-8 truncate font-open-sans
+      focus:outline-none 
+      focus:z-30 focus:shadow-search-control
+     placeholder-gray-600 text-black pl-7 pr-12"><span class="
+      z-30 absolute right-0
+      text-gray-500 text-lg 
+      leading-8 font-open-sans
+     mr-3">  </span></label><!----></div><div data-v-3c98a384="" class="relative flex ml-px justify-center w-1/3"><div tabindex="0" class="
+    flex items-center
+    relative bg-white
+    px-3
+    outline-none select-none	
+    font-open-sans
+    focus:z-30
+    focus:shadow-search-control
+   flex-1 rounded-r-sm lg:rounded-none" id="desktop-main-date-from" data-qa-id="desktop-main-date-from"><span class="text-black text-lg leading-8"> 12 сен, <span>пн</span></span><!----></div><!----><!----></div><!----></div><div data-v-127019e6="" class="flex search-form__row space-x-2 lg:space-x-0 lg:ml-px"><div data-v-127019e6="" class="extra-params font-open-sans flex-1 lg:w-auto"><div tabindex="0" data-qa-id="desktop-main-passengers-select" class="
+      relative focus:z-30
+      flex flex-col justify-center
+      h-full py-1 px-3
+      bg-white
+      rounded-md border-3 border-green-600
+     cursor-pointer lg:rounded-none lg:border-0 focus:border-purple-300 lg:focus:border-0 lg:focus:shadow-search-control"><p class="text-regular text-gray-600"> Эконом-класс </p><p class="text-lg leading-8 text-black"> 1 пассажир </p></div><div class="relative flex lg:justify-center"><!----></div></div><!----><button data-v-127019e6="" type="submit" class="
+                search-form__btn
+                font-open-sans
+                rounded-sm bg-green-600
+                text-white font-bold text-2xl
+                transition ease-in duration-150
+                active:bg-green-700
+                focus:outline-none
+                focus:bg-green-700
+                disabled:bg-green-700
+               lg:rounded-l-none"> Найти </button></div></div><div data-v-127019e6="" class="flex w-full items-center mt-3"><!----><label data-v-127019e6="" class="flex xs:items-center ml-auto" data-qa-id="mobile-hotel-booking-checkbox"><input tabindex="-1" type="checkbox" class="sr-only ux-hotel-booking-checkbox"><span tabindex="0" data-qa-id="" class="
+      block flex-shrink-0
+      rounded border-2 
+      bg-no-repeat bg-center
+      transition ease-in duration-200
+      focus:outline-none
+      focus:shadow-outline-green
+      disabled:bg-gray-200
+     w-5 h-5 bg-white border-gray-400"></span><span data-v-127019e6="" class="
+                ml-2 font-open-sans font-normal 
+                text-sm leading-tight text-black 
+              "> Искать жилье на Booking.com </span></label></div></form></div><!----></section>
+</div> <!-- div.flightsearch -->
+
+<!-- Slider - promo offers -->
+<div class="container-wrap promooffers" style="background-color: #F0F0F0; box-shadow: none;">
+    <div class="container3">
+        <div class="promooffers__slider">
+            <figure class="promooffers__slider_picture">
+                <div id="owl-promo-offers" class="owl-carousel owl-theme" data-qa-id="desktop-main-promooffers" style="opacity: 1; display: block;">
+                    <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6930px; left: 0px; display: block;"><div class="owl-item" style="width: 1155px;"><div>
+                        <figure role="img" aria-label="Promo offer">
+                            <!-- /12329540/new_aviata_main_slider1 -->
+                            <div id="div-gpt-ad-1454059236938-0" style="height:150px; width:950px;margin:auto; border-radius: 8px; overflow: hidden;" data-qa-id="desktop-main-promooffers" data-google-query-id="CJba2IaYi_oCFZLxmgodn-8I1w">
+                                
+                            <div id="google_ads_iframe_/12329540/new_aviata_main_slider1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/12329540/new_aviata_main_slider1_0" name="google_ads_iframe_/12329540/new_aviata_main_slider1_0" title="3rd party ad content" width="950" height="150" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="1"></iframe></div></div>
+
+                        </figure>
+                    </div></div><div class="owl-item" style="width: 1155px;"><div>
+                        <figure role="img" aria-label="Promo offer">
+                            <!-- /12329540/new_aviata_main_slider2 -->
+                            <div id="div-gpt-ad-1454059236938-1" style="height:150px; width:950px;margin:auto; border-radius: 8px; overflow: hidden;" data-google-query-id="CJfa2IaYi_oCFZLxmgodn-8I1w">
+                                
+                            <div id="google_ads_iframe_/12329540/new_aviata_main_slider2_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/12329540/new_aviata_main_slider2_0" name="google_ads_iframe_/12329540/new_aviata_main_slider2_0" title="3rd party ad content" width="950" height="150" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="2"></iframe></div></div>
+
+                        </figure>
+                    </div></div><div class="owl-item" style="width: 1155px;"><div>
+                        <figure role="img" aria-label="Promo offer">
+                            <!-- /12329540/new_aviata_main_slider3 -->
+                            <div id="div-gpt-ad-1454059236938-2" style="height:150px; width:950px;margin:auto; border-radius: 8px; overflow: hidden;" data-google-query-id="CJja2IaYi_oCFZLxmgodn-8I1w">
+                                
+                            <div id="google_ads_iframe_/12329540/new_aviata_main_slider3_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/12329540/new_aviata_main_slider3_0" name="google_ads_iframe_/12329540/new_aviata_main_slider3_0" title="3rd party ad content" width="950" height="150" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" style="border: 0px; vertical-align: bottom;" data-load-complete="true" data-google-container-id="3"></iframe></div></div>
+
+                        </figure>
+                    </div></div></div></div>
+                    
+                    
+                <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div> <!-- div.owl-carousel -->
+            </figure> <!-- figure.promooffers__slider_picture -->
+            <div class="promooffers__slider_label" style="display: flex; justify-content: center;">
+                <ul>
+                    <li class="_leftswitch"></li>
+                    <li class="_sliderdot -mod-active"></li>
+                    <li class="_sliderdot"></li>
+                    <li class="_sliderdot _lastsliderdot"></li>
+                    <li class="_rightswitch"></li>
+                </ul>
+            </div>
+        </div> <!-- div.promooffers__slider -->
+    </div> <!-- div.container3 -->
+</div> <!-- div.promooffers -->
+
+
+    <div class="container3">
+        <div style="background-color: #7284E4; padding: 16px 32px; font-family: 'Open Sans', sans-serif; font-style: normal; font-weight: 600; font-size: 16px; line-height: 24px; display: flex; flex-direction: column; margin-top: 40px;">
+            
+                <a href="https://aviata.kz/media/news/?utm_source=aviata&amp;utm_medium=main-page-field&amp;utm_campaign=news-promo" style="color: #fff; margin-bottom: 8px;">
+                    Актуальные новости в сфере путешествий <span>&nbsp;&nbsp;&nbsp;&gt;</span>
+                </a>
+            
+                <a href="https://aviata.kz/media/rules/kuda-mozhno-poletet-i-s-kakimi-usloviiami?utm_source=aviata&amp;utm_medium=main-page-field&amp;utm_campaign=covid-rules-promo" style="color: #fff; margin-bottom: 8px;">
+                    Куда можно полететь и с какими условиями <span>&nbsp;&nbsp;&nbsp;&gt;</span>
+                </a>
+            
+        </div>
+    </div>
+
+
+<!-- Media panel -->
+<div class="container3 media">
+    <div class="row">
+        <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8">
+            <div class="media__video">
+                <div class="media__heading">
+                    <h4>Об Авиате</h4>
+                    <a target="_blank" href="https://special.aviata.kz/aviata-presentation?utm_source=aviata&amp;utm_medium=main-page-about&amp;utm_campaign=aviata-presentation">
+                      <img class="img-responsive" src="/static/images/video-previews/aviata_update.png" alt="About Aviata">
+                    </a>
+                </div> <!-- div.media__heading -->
+
+                <!-- <video></video> -->
+            </div> <!-- div.media__video -->
+        </div>
+        
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8">
+            <div class="media__blogs">
+                <h4>
+                    
+                        Новости
+                    
+                    
+                    
+                </h4>
+                <div>
+                    
+                        <p><a href="https://aviata.kz/passport_information/" target="_blank">Важная информация по паспортам для выезжающих за рубеж</a><br>
+</p><p><a href="https://story.aviata.me/news/otdelnyj-zagranpasport-dlya-detej-stanet-obyazatelnym" target="_blank">Отдельный загранпаспорт для детей станет обязательным</a><a href="https://story.aviata.me/news/otdelnyj-zagranpasport-dlya-detej-stanet-obyazatelnym"></a>
+</p><p><a href="https://special.aviata.kz/aviata-presentation?utm_source=aviata&amp;utm_medium=main-page-news&amp;utm_campaign=aviata-presentation" target="_blank" rel="nofollow">Рассказываем о новых фишках Авиаты в презентации Aviata Update</a><br>
+</p>
+                    
+                    
+                    
+                </div>
+            </div>
+            </div>
+        
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8">
+            <div class="media__blogs">
+                <h4>
+                    
+                        Полезное
+                    
+                    
+                    
+                </h4>
+                <div>
+                    
+                        <p><a target="_blank" href="https://aviata.kz/calendar/"><img src="/upload/uploads/flights-price-calendar.png" style="float: left; width: 30px; height: auto; margin: 0px 10px 10px 0px;"></a>
+</p><p><a target="_blank" href="https://aviata.kz/calendar/"> Календарь низких цен</a> — выбирайте самые выгодные авиабилеты! <br>
+</p><p><a href="https://aviata.kz/gov/penalties-check/" target="_blank">Проверка штрафов перед выездом зарубеж</a>
+</p><p><a href="https://aviata.kz/travel/?utm_source=aviata-main&amp;utm_medium=banner&amp;utm_campaign=news" target="_blank">Подбор города для отпуска</a><br>
+</p><p><a href="https://aviata.kz/how-to-buy-railway-ticket/">Инструкция: как купить ЖД-билет</a>
+</p><p><a href="https://aviata.kz/aviabilety-v-rassrochku/?utm_source=aviata&amp;utm_medium=main-page&amp;utm_campaign=aviata-presentation" target="_blank">Авиабилеты в рассрочку или кредит</a><br></p>
+                    
+                    
+                    
+                </div>
+            </div>
+            </div>
+        
+    </div> <!-- div.row -->
+</div> <!-- div.media -->
+
+<!-- 'why aviata' -->
+<div class="container3 whyaviata mb-4">
+    <h2 class="whyaviata__heading">Почему авиабилеты лучше покупать на Aviata.kz</h2>
+
+    <!-- size - 900 -->
+    <div class="whyaviata__900">
+        <div class="row">
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8 whyaviata__block">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-7">
+                        <img src="/static/images/new/why-trust.png" alt="Trust agency">
+                    </div>
+                    <div class="col-xs-16 col-sm-16 col-md-17">
+                        <p class="whyaviata__block_text">
+                            Поиск лучших вариантов<br>среди более 300 авиакомпаний
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- div.whyaviata__block -->
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8 whyaviata__block">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-7">
+                        <img src="/static/images/new/why-cheap.png" alt="Cheap tickets">
+                    </div>
+                    <div class="col-xs-16 col-sm-16 col-md-17">
+                        <p class="whyaviata__block_text">
+                            Опыт с 1997 года<br>и более 500 000 пассажиров
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- div.whyaviata__block -->
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8 whyaviata__block">
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-7">
+                        <img src="/static/images/new/why-easy.png" alt="Easy to buy">
+                    </div>
+                    <div class="col-xs-16 col-sm-16 col-md-17">
+                        <p class="whyaviata__block_text">
+
+                            Удобные способы оплаты<br>и легкость покупки
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- div.whyaviata__block -->
+        </div> <!-- div.row -->
+        <div class="row">
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8">
+                <div class="whyaviata__reasoning">
+
+                    <h4>Надёжное авиа-агентство</h4>
+                    <p>
+                        Сотрудники Aviata.kz имеют <a href="/about">большой опыт</a> работы в области авиаперевозок и работы с&nbsp;клиентами, чем заслужили надёжную репутацию, как у&nbsp;частных клиентов, так и&nbsp;у&nbsp;крупных компаний.
+                    </p>
+                </div> <!-- div.whyaviata__reasoning -->
+            </div>
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8">
+                <div class="whyaviata__reasoning">
+                    <h4>Дешёвые авиабилеты</h4>
+                    <p>
+                        В отличие от субагентов, мы можем предложить максимально дешёвые авиабилеты без наценок на любые направления более чем 300&nbsp;авиакомпаний мира с поиском через единые мировые билетные системы.
+                    </p>
+                </div> <!-- div.whyaviata__reasoning -->
+            </div>
+            <div class="col-xs-24 col-sm-8 col-md-8 col-lg-8">
+                <div class="whyaviata__reasoning">
+
+                    <h4>Купить билеты легко</h4>
+                    <p>
+                        С нашим онлайн-сервисом можно легко выбрать нужный авиарейс и купить билеты с&nbsp;оплатой картами Visa/MasterCard. 
+                    </p>
+                </div> <!-- div.whyaviata__reasonin -->
+            </div>
+        </div> <!-- div.row -->
+    </div> <!-- div.whyaviata__900 -->
+</div>  <!-- div.whyaviata -->
+
+<div class="container3"><div class="flex space-x-20 pl-10 my-16 pt-3 bg-gray-200 font-open-sans rounded-sm"><div><picture><source srcset="/static/aviax-bridge/main-desktop/img/mobileapp.webp" type="image/webp"><source srcset="/static/aviax-bridge/main-desktop/img/mobileapp.png" type="image/png"><img src="/static/aviax-bridge/main-desktop/img/mobileapp.png" width="405" height="395" alt="" role="presentation"></picture></div><div class="pt-7"><h3 class="mb-6 text-3xl font-bold leading-normal text-black"> Получайте максимум с нашим <br>мобильным приложением </h3><ul class="space-y-3 mb-6 text-base font-normal leading-relaxed text-black"><li class="flex items-center"><img src="/static/aviax-bridge/main-desktop/img/check-green-new.d6d485b2.svg" width="16" height="16" role="presentation" alt="" class="mr-3"> Просматривайте заказы онлайн </li><li class="flex items-center"><img src="/static/aviax-bridge/main-desktop/img/check-green-new.d6d485b2.svg" width="16" height="16" role="presentation" alt="" class="mr-3"> Загружайте дорожную квитанцию </li><li class="flex items-center"><img src="/static/aviax-bridge/main-desktop/img/check-green-new.d6d485b2.svg" width="16" height="16" alt="" role="presentation" class="mr-3"> Уведомления о путешествиях </li><li class="flex items-center"><img src="/static/aviax-bridge/main-desktop/img/check-green-new.d6d485b2.svg" width="16" height="16" alt="" role="presentation" class="mr-3"> Упрощенное бронирование </li></ul><div class="flex space-x-5"><a data-ga-track="MainPageAppPromo/GooglePlay" href="https://redirect.appmetrica.yandex.com/serve/97435620862931764" target="_blank" class="
+            mobileapp-link flex py-2 px-4
+            text-base font-bold leading-relaxed text-white
+            bg-black rounded cursor-pointer
+            hover:text-white
+          "><img src="/static/aviax-bridge/main-desktop/img/google-play.a37025ec.svg" role="presentation" alt="" class="mr-2"> Google Play </a><a data-ga-track="MainPageAppPromo/AppStore" href="https://redirect.appmetrica.yandex.com/serve/674678683608343485" target="_blank" class="
+            mobileapp-link flex py-2 px-4
+            text-base font-bold leading-relaxed text-white
+            bg-black rounded cursor-pointer
+            hover:text-white
+          "><img src="/static/aviax-bridge/main-desktop/img/app-store.080e7ea3.svg" role="presentation" alt="" class="mr-2"> App Store </a><a data-ga-track="MainPageAppPromo/AppGallery" href="https://appgallery.huawei.com/app/C102916593?sharePrepath=ag&amp;locale=ru_RU&amp;source=appshare&amp;subsource=C102916593" target="_blank" class="
+            mobileapp-link flex py-2 px-4
+            text-base font-bold leading-relaxed text-white
+            bg-black rounded cursor-pointer
+            hover:text-white
+          "><img src="/static/aviax-bridge/main-desktop/img/appgallery.cbd74dd6.svg" role="presentation" alt="" class="mr-2"> AppGallery </a></div></div></div></div>
+
+<!-- Aviata.kz service description #1-->
+<div class="servicedesc1 container3">
+    <p>Aviata.kz — сервис, позволяющий <strong>купить авиабилеты онлайн</strong> или забронировать их и оплатить любым удобным способом. Поиск авиаперелётов поможет быстро найти, осуществить бронирование и покупку авиабилетов онлайн в любом направлении из любой точки мира, не выходя из дома или офиса. Воспользовавшись поиском авиабилетов на Aviata.kz, можно посмотреть стоимость билетов на самолеты различных авиакомпаний, выбрать и купить наиболее <strong>дешёвые авиабилеты</strong> онлайн или забронировать электронный билет на более удобный по времени рейс.</p>
+</div> <!-- div.servicedesc1 -->
+
+<!-- Aircompany carousel -->
+<div class="container3 aircompanies">
+    <div class="carousel" style="margin-top: 30px;">
+        <div class="carousel__leftswitch">
+            <span class="image-inner"></span>
+        </div> <!-- div.carousel__leftswitch -->
+        <div class="carousel__content">
+            <div id="owl-aircompanies" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 4576px; left: 0px; display: block;"><div class="owl-item" style="width: 208px;"><a href="/air-astana/"><img src="/static/images/air-astana-logo.gif" alt="air astana" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/flyarystan/"><img src="/static/images/airlines/flyarystan-logo.png" alt="flyarystan" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/aeroflot/"><img src="/static/images/airlines/aeroflot-airlines-logo.png" alt="aeroflot" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/asiana/"><img src="/static/images/airlines/asiana-airlines.png" alt="asiana airlines" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/turkish-airlines/"><img src="/static/images/turkish-airlines-logo.gif" alt="turkish airlines" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/brit%20%20ish-airways/"><img src="/static/images/airlines/british-airways.png" alt="british airways" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/etihad-airways/"><img src="/static/images/airlines/ethad-airways.png" alt="etihad airways" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/scat/"><img src="/static/images/airlines/scat-airlines.png" alt="scat airlines" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/lufthansa"><img src="/static/images/lufthansa-logo.gif" alt="lufthansa" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/klm/"><img src="/static/images/klm-logo.gif" alt="klm" class="airlines-main" style="display: inline-block"></a></div><div class="owl-item" style="width: 208px;"><a href="/pegasus/"><img src="/static/images/airlines/pegasus-airlines.png" alt="pegasus airlines" class="airlines-main" style="display: inline-block"></a></div></div></div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div> <!-- div.owl-carousel -->
+        </div> <!-- div.carousel__content -->
+        <div class="carousel__rightswitch">
+            <span class="image-inner"></span>
+        </div> <!-- div.carousel__rightswitch -->
+    </div> <!-- div.carousel -->
+</div> <!-- div.aircompanies -->
+
+<!-- Aviata.kz service description #2-->
+<div class="container-wrap servicedesc2">
+    <div class="container3">
+        <p>
+            Авиабилеты онлайн – Казахстанский сервис по продаже авиабилетов онлайн. Автоматизированный поиск и бронирование авиабилетов позволяет мгновенно найти и забронировать наиболее дешевый электронный билет в любую точку мира. Наша компания сотрудничает с десятками авиакомпаний. Это делает поиск перелетов наиболее эффективным и позволяет находить наиболее дешевые варианты. Вы можете купить билет на самолет не зависимо от того, находитесь ли вы в Алматы, в Астане или в любом другом городе Казахстана. Стоимость авиабилетов Бронирование авиабилетов происходит в автоматическом режиме. Воспользуйтесь поиском и забронируйте подходящий билет на рейс из списка предложений. Наша система поиска и бронирования позволяет искать и бронировать наиболее дешевые авиабилеты из сотен предложенных вариантов. Таким образом, стоимость перелета всегда будет наиболее выгодной. Продажа билетов осуществляется с помощью кредитных карт. Электронный авиабилет содержит в себе всю информацию о пассажирах и рейсах. Электронный билет невозможность потерять или забыть дома. Ваши данные хранятся у авиакомпании и находятся всегда под рукой.
+        </p>
+    </div> <!-- div.container -->
+</div> <!-- div.servicedesc2 -->
+
+<!-- Publications-->
+<div class="container3 publ">
+    <div class="row posts">
+        <div>
+            
+                <a href="/aviabilet/">
+                    Электронный авиабилет
+                </a>
+            
+                <a href="/flights/">
+                    Как купить дешевые авиабилеты через интернет
+                </a>
+            
+                <a href="/agreement/">
+                    Публичная оферта Aviata.kz
+                </a>
+            
+                <a href="/almaty-moscow/">
+                    Авиабилеты Алматы—Москва
+                </a>
+            
+                <a href="/almaty-st-petersburg/">
+                    Авиабилеты Алматы—Санкт-Петербург
+                </a>
+            
+                <a href="/almaty-astana/">
+                    Авиабилеты Алматы—Астана
+                </a>
+            
+                <a href="/pegasus/">
+                    Pegasus — Пегасус
+                </a>
+            
+                <a href="/benefits/">
+                    Где лучше и выгодней покупать авиабилеты - Aviata.kz
+                </a>
+            
+                <a href="/asiana/">
+                    Asiana — Азиана
+                </a>
+            
+                <a href="/privacy_policy/">
+                    Политика конфиденциальности - Aviata.kz
+                </a>
+            
+                <a href="/visa_flight_info/">
+                    Требуется ли виза при транзитных рейсах
+                </a>
+            
+                <a href="/travel-insurance/">
+                    Страхование туристов
+                </a>
+            
+                <a href="/mau/">
+                    МАУ — UIA
+                </a>
+            
+                <a href="/almaty-atyrau/">
+                    Авиабилеты Алматы—Атырау
+                </a>
+            
+                <a href="/astana-moscow/">
+                    Авиабилеты Астана—Москва
+                </a>
+            
+                <a href="/almaty-urumqi/">
+                    Авиабилеты Алматы—Урумчи
+                </a>
+            
+                <a href="/almaty-dubai/">
+                    Авиабилеты Алматы—Дубай
+                </a>
+            
+                <a href="/train-tickets/">
+                    Запуск онлайн-продажи ЖД-билетов
+                </a>
+            
+                <a href="/sales-road/">
+                    Программа Динамичный тариф
+                </a>
+            
+                <a href="/almaty-antalya/">
+                    Авиабилеты Алматы—Анталия
+                </a>
+            
+                <a href="/advertising/">
+                    Рекламные возможности Авиаты
+                </a>
+            
+                <a href="/almaty-istanbul/">
+                    Авиабилеты Алматы—Стамбул
+                </a>
+            
+                <a href="/http:special.aviata.kzjob/">
+                    Карьера в Авиате
+                </a>
+            
+                <a href="/qazaq-air/">
+                    Qazaq Air — Казах Эйр
+                </a>
+            
+                <a href="/transaero-changes/">
+                    Информация для пассажиров «Трансаэро»
+                </a>
+            
+                <a href="/cheap-flights/">
+                    Выгодные авиабилеты на Aviata.kz!
+                </a>
+            
+                <a href="/passport_information/">
+                    Важная информация по паспортам для выезжающих за рубеж!
+                </a>
+            
+                <a href="/etihad-08072016/">
+                    Специальное предложение авиакомпании Etihad Airways
+                </a>
+            
+                <a href="/autumn-flights/">
+                    Осенние предложения на Aviata.kz!
+                </a>
+            
+                <a href="/uia-promo-august-2016/">
+                    Выгодные авиабилеты в Европу от МАУ из Алматы и Астаны!
+                </a>
+            
+                <a href="/vtbilisisoscat/">
+                    Выходные в Тбилиси с авиакомпанией SCAT
+                </a>
+            
+                <a href="/uber/">
+                    Дарим первую бесплатную поездку по Алматы и Астане через приложение Uber!
+                </a>
+            
+                <a href="/our_advantages/">
+                    Почему покупать билеты на Aviata.kz выгоднее?
+                </a>
+            
+                <a href="/astana-almaty/">
+                    Авиабилеты Астана — Алматы
+                </a>
+            
+                <a href="/DevOps/">
+                    DevOps Engineer
+                </a>
+            
+                <a href="/jobproject_manager/">
+                    Project manager - Проектный менеджер
+                </a>
+            
+                <a href="/lawyer/">
+                    Ведущий юрист / Senior Lawyer
+                </a>
+            
+                <a href="/flyarystan/">
+                    FlyArystan (Флай Арыстан)
+                </a>
+            
+                <a href="/job/">
+                    Вакансии
+                </a>
+            
+                <a href="/almaty%E2%80%94nursultan/">
+                    Алматы – Нур-Султан
+                </a>
+            
+                <a href="/nursultan%E2%80%94almaty/">
+                    Нур-Султан – Алматы
+                </a>
+            
+                <a href="/shymkent-nursultan/">
+                    Шымкент – Нур-Султан
+                </a>
+            
+                <a href="/nursultan-shymkent/">
+                    Нур-Султан – Шымкент
+                </a>
+            
+                <a href="/atyrau-aktau/">
+                    Атырау — Актау
+                </a>
+            
+                <a href="/oskemen-almaty/">
+                    Усть-Каменогорск — Алматы
+                </a>
+            
+                <a href="/aktobe-nursultan/">
+                    Актобе – Нур-Султан
+                </a>
+            
+            <a href="/info/">Справочники</a>
+            <a href="/popular-flights/">Рейсы</a>
+        </div>
+    </div> <!-- div.posts -->
+</div> <!-- div.publ -->
+
+
+    <footer class="with-rounded-rect bg-black py-12 px-2"><div class="
+      max-w-screen-xl
+      px-5 
+      mx-auto
+      flex 
+      justify-between 
+    "><div class="w-1/3 space-y-4"><a href="/"><img src="/static/aviax-bridge/main-desktop/img/aviata-white-green.847d81cc.svg" alt="Авиабилеты - купить дешевые авиабилеты в Казахстане онлайн на aviata.kz" width="190" height="40"></a><ul class="space-y-1 text-base"><li><a href="/about/" data-qa-id="desktop-main-footer-about" class="text-white hover:text-white text-sm">О компании</a></li><li><a href="/agreement" data-qa-id="desktop-main-footer-agreement" class="text-white hover:text-white text-sm">Публичная оферта</a></li><li><a href="https://special.aviata.kz/job/" data-qa-id="desktop-main-footer-job" class="text-white hover:text-white text-sm">Вакансии</a></li><li><a href="/contacts" data-qa-id="desktop-main-footer-contacts" class="text-white hover:text-white text-sm">Контакты</a></li></ul><div class="flex w-3/5 space-x-5"><a href="http://instagram.com/aviatakz" rel="nofollow noopener noreferrer" target="_blank" data-qa-id="desktop-main-footer-instagram"><img src="/static/aviax-bridge/main-desktop/img/instagram-icon.081d2b4b.svg" alt="Авиата в Instagram" width="32" height="32"></a><a href="https://www.youtube.com/channel/UCLAK02FsahxVtXkzViuWhOg" rel="nofollow noopener noreferrer" target="_blank" data-qa-id="desktop-main-footer-youtube"><img src="/static/aviax-bridge/main-desktop/img/youtube-icon.db96c23d.svg" alt="Авиата в YouTube" width="32" height="32"></a><a href="https://www.facebook.com/aviata.me" rel="nofollow noopener noreferrer" target="_blank" data-qa-id="desktop-main-footer-facebook"><img src="/static/aviax-bridge/main-desktop/img/facebook-icon.c6552be5.svg" alt="Авиата в Facebook" width="32" height="32"></a><a href="https://twitter.com/Aviatakz" rel="nofollow noopener noreferrer" target="_blank" data-qa-id="desktop-main-footer-twitter"><img src="/static/aviax-bridge/main-desktop/img/twitter-icon.3f044f7e.svg" alt="Авиата в Twitter" width="32" height="32"></a></div></div><div class="flex flex-col w-1/3 space-y-4 py-4"><img src="/static/aviax-bridge/main-desktop/img/iata.96d8c968.svg" alt="IATA" width="42" height="26" data-qa-id="desktop-main-footer-iata"><p class="text-white font-bold w-3/4">Агентство аккредитовано сертификатом IATA Code 65321830</p><p class="text-white w-3/4">Отмечены международным знаком качества. Гарантия безопасности.</p><div class="flex items-center space-x-2"><a href="https://astanahub.com/" rel="nofollow noopener noreferrer" target="_blank"><picture><source srcset="/static/aviax-bridge/main-desktop/img/astana-hub.webp" type="image/webp"><source srcset="/static/aviax-bridge/main-desktop/img/astana-hub.png" type="image/png"><img src="/static/aviax-bridge/main-desktop/img/astana-hub.png" alt="Astana Hub" width="88" height="32"></picture></a><picture><source srcset="/static/aviax-bridge/main-desktop/img/deposit-photos.webp" type="image/webp"><source srcset="/static/aviax-bridge/main-desktop/img/deposit-photos.png" type="image/png"><img src="/static/aviax-bridge/main-desktop/img/deposit-photos.png" alt="Depositphotos Logo" width="109" height="18"></picture></div></div><div class="w-1/3 py-4"><div class="flex flex-col w-3/4 space-y-4"><picture><source srcset="/static/aviax-bridge/main-desktop/img/forbes.webp" type="image/webp"><source srcset="/static/aviax-bridge/main-desktop/img/forbes.png" type="image/png"><img src="/static/aviax-bridge/main-desktop/img/forbes.png" alt="Авиата — лидер по продаже билетов  в Казахстане" width="101" height="26" data-qa-id="desktop-main-footer-forbes"></picture><a href="https://forbes.kz/ranking/object/934" rel="nofollow noopener noreferrer" target="_blank" class="text-white hover:text-white focus:text-white text-sm font-bold w-3/4"> Авиата — лидер по продаже билетов в Казахстане </a><p class="text-sm text-white w-3/4"> По данным журнала Forbes Kazakhstan, сентябрь 2020 </p><p class="text-sm text-white">ТОО «Aviata» © 2010—2022</p></div></div></div></footer>
+
+
+  </div>
+  <div style="flex: 0 0 auto;">
+    
+      
+        <div id="desktop-footer"></div>
+      
+    
+  </div>
+</div>
+
+
+<script src="/static/js/jquery-1.11.min.js"></script>
+<script src="/static/js/vendor/modernizr.custom.js"></script>
+<script src="/static/js/bootstrap.js"></script>
+<script src="/static/js/jquery-ui.min.js"></script>
+<script src="/static/js/vendor/fastclick.js"></script>
+<script src="/static/js/transitional.js?2022.09.08T11-35"></script>
+<script src="/static/compiled/js/utils.js"></script>
+<script src="/static/js/save_gclid.js" type="text/javascript"></script>
+<script async="" src="/static/js/set-ga-client-id.js"></script>
+
+
+
+    <script src="/static/js/vendor/ui/datepicker-ru.js" type="text/javascript"></script>
+
+
+
+
+<script type="text/javascript">
+window.onpageshow = function(event) {
+    if (event.persisted) {
+      $('#page-loading').hide();
+    }
+};
+</script>
+
+
+    
+    <script>
+        document.querySelector('.ux-main-about').addEventListener('click', function () {
+          if (typeof ga === 'function') {
+            ga('send', 'event', 'main-page', 'click', 'refund-exchange');
+          }
+        });
+    </script>
+    <script src="/static/js/vendor/owl.carousel.js"></script>
+    <script src="/static/js/jquery.maskedinput.min.js"></script>
+    <script src="/static/js/jquery.autocomplete.min.js" type="text/javascript"></script>
+    <script src="/static/js/vendor/js.cookie.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.qtip.js"></script>
+    <script src="/static/js/auth-bridge.js"></script>
+    
+
+    <script src="/static/compiled/js/index.js?2022.09.08T11-35"></script>
+    
+    
+
+
+  <script src="/static/aviax-bridge/main-desktop/js/app.js?r=2022.09.08T11-35&amp;v=1"></script>
+  <script src="/static/aviax-bridge/main-desktop/js/chunk-vendors.js?r=2022.09.08T11-35&amp;v=1"></script>
+
+    
+
+
+
+
+<iframe src="//creativecdn.com/tags?id=pr_0U7c4pu5W6MXThgXFyin_home" style="width: 1px; height: 1px; overflow: hidden; border: none; display: none;"></iframe>
+
+
+
+
+
+
+<script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(22301591,"init",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,ecommerce:"dataLayer"});</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/22301591" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+
+<script type="text/javascript" id="">(function(a,b,c,g,d,e,f){a.GoogleAnalyticsObject=d;a[d]=a[d]||function(){(a[d].q=a[d].q||[]).push(arguments)};a[d].l=1*new Date;e=b.createElement(c);f=b.getElementsByTagName(c)[0];e.async=1;e.src=g;f.parentNode.insertBefore(e,f)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-26362551-2");ga("require","GTM-5QSZBSD");ga("require","ec");ga("require","linkid","linkid.js");ga("require","displayfeatures");
+var ua_flight_dest_id="",ua_flight_orig_id="";ga("set","dimension3",ua_flight_dest_id);ga("set","dimension5",ua_flight_orig_id);
+var OpenStatParser={_params:{},_parsed:!1,_decode64:function(a){if("function"===typeof window.atob)return atob(a);var b="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\x3d",c=0,g=0,d=[];if(!a)return a;a+="";do{var e=b.indexOf(a.charAt(c++));var f=b.indexOf(a.charAt(c++));var k=b.indexOf(a.charAt(c++));var l=b.indexOf(a.charAt(c++));var h=e<<18|f<<12|k<<6|l;e=h>>16&255;f=h>>8&255;h&=255;64==k?d[g++]=String.fromCharCode(e):64==l?d[g++]=String.fromCharCode(e,f):d[g++]=String.fromCharCode(e,
+f,h)}while(c<a.length);return a=d.join("")},_parse:function(){var a=window.location.search.substr(1);a=a.split("\x26");this._params={};for(var b=0;b<a.length;b++){var c=a[b].split("\x3d");this._params[c[0]]=c[1]}this._parsed=!0},hasMarker:function(){this._parsed||this._parse();return"undefined"!==typeof this._params._openstat?!0:!1},buildCampaignParams:function(){if(!this.hasMarker())return!1;var a=this._decode64(this._params._openstat);a=a.split(";");utmcampaign=a[3];utmsource=a[0];utmcontent=a[2]}};
+if(OpenStatParser.hasMarker()){var campaignParams=OpenStatParser.buildCampaignParams();!1!==campaignParams&&ga("set",{campaignName:utmcampaign,campaignSource:utmsource,campaignMedium:"cpc",campaignContent:utmcontent})}ga("send","pageview");</script>
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1862079357408316",{em:"insert_email_variable,"});fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1862079357408316&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<meta name="google-site-verification" content="uTebBz0PO-3nfcW4CMXkW29zl4ZkhoNg09FQSXdc39A"><script type="text/javascript" id="">var ScarabQueue=ScarabQueue||[];(function(a){if(!document.getElementById(a)){var b=document.createElement("script");b.id=a;b.src="//cdn.scarabresearch.com/js/1E579E9D13D68BAE/scarab-v2.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a)}})("scarab-js-api");</script><iframe src="https://c5d444c2b8a11338b02ba6a58425b5fc.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" style="visibility: hidden; display: none;"></iframe>
+<iframe name="google_ads_top_frame" id="google_ads_top_frame" style="display: none; position: fixed; left: -999px; top: -999px; width: 0px; height: 0px;"></iframe></body></html>
